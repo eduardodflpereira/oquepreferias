@@ -1,0 +1,14 @@
+$base-red: #730E15;
+$background-red: #AE5454;
+$background-blue: #667FAE;
+$text-light: #CCCCCC;
+
+.navbar {
+  background-color: $base-red;
+
+  .navbar-brand{
+    color: $text-light;
+  }
+}
+
+

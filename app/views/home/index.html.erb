@@ -1,0 +1,8 @@
+<div class="main">
+  <div class="question-list">
+    <% @questions.each do |question| %>
+      <%= link_to question.text, question %>
+    <% end %>
+  </div>
+</div>
+

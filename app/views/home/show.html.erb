@@ -1,0 +1,14 @@
+<div class="main">
+  <div class="question-container">
+    <h1><%= @question.text %></h1>
+  </div>
+  <div class ="options-container row">
+    <div class="col-md-6 option1">
+      <%= link_to @question.option1, option_path(@question, 1) %>
+    </div>
+    <div class="col-md-6 option2">
+      <%= link_to @question.option2, option_path(@question, 2) %>
+    </div>
+  </div>
+</div>
+
